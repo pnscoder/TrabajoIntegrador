@@ -1,0 +1,48 @@
+body{
+font-family:arial;
+}
+
+.contenedor{
+
+background-color: #6699ff;
+background-image: url("https://www.transparenttextures.com/patterns/txture.png");
+max-width: 100%;
+overflow: hidden;
+}
+
+.container{
+margin: 35px;
+max-width: 100%;
+}
+
+h2{
+text-align: center;
+color: white;
+}
+
+.formulario{
+color: white;
+max-width: 100%;
+}
+
+.campo{
+margin-left: 15px;
+padding: 5px;
+
+}
+
+
+
+.envio{
+  max-width: 100%;
+  text-align: center;
+}
+
+.campo p{padding:0px;}
+
+input[type=text]{    min-width: 100%;margin-top: 3px;border: 1px solid grey;}
+input[type=email]{    min-width: 100%;margin-top: 3px;border: 1px solid grey;}
+input[type=password]{    min-width: 100%;margin-top: 3px;border: 1px solid grey;}
+input[type=textarea]{    min-width: 100%;margin-top: 3px;height: 100px;border: 1px solid grey;}
+select{background-color: white;border: 1px solid grey;}
+button{background-color: white;border: 1px solid grey;}

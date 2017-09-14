@@ -1,0 +1,37 @@
+@media (min-width: 1180px) {
+  .contenedor {
+    width: 1180px;
+  }
+
+ .columnas{height: 2300px}
+  .columnas .columna {
+    width: 100%;
+  }
+
+  nav ul li a {
+      width: 18%;
+      margin-left: 1.5px;
+      font-size: 24px;
+  }
+
+.izquierda{
+    width: 50%;
+    float: left;
+}
+
+.derecha{
+    width: 50%;
+    float: left;
+    text-align: center;
+    padding-top: 5%;
+}
+
+.columnas .columna .ver_mas{display: none;}
+
+.titulo{
+  width:100%;
+}
+.titulo h1{
+  font-size: 2em;
+  font-weight: bold;
+}
