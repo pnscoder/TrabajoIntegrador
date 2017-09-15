@@ -1,12 +1,16 @@
 @media (min-width: 1180px) {
   .contenedor {
     width: 1180px;
+    background-image: url(imagenes/black-thread.png);
   }
 
- .columnas{height: 2300px}
+
+
+ .columnas{height: 2150px;}
   .columnas .columna {
     width: 100%;
   }
+
 
   nav ul li a {
       width: 18%;
@@ -35,3 +39,12 @@
   font-size: 2em;
   font-weight: bold;
 }
+
+img{margin-top: 25px;}
+.columna .izquierda .foto1{position:relative;left:550px;}
+.texto1{position:relative;left:150px;width: 350px;display: inline-block;
+  margin-top: 50px;font-family: 'PT Sans', sans-serif;font-style: oblique;}
+.texto2{position:relative;left:-500px;width: 350px;display: inline-block;
+  margin-top: 50px;font-family: 'PT Sans', sans-serif;font-style: oblique;}
+.columnas .columna h2{font-size: 30px;}
+.columnas .columna p{font-size: 20px;color:#990033;}

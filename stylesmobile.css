@@ -1,6 +1,9 @@
-.contenedor {background-color: #48a5a8;
-background-image: url("https://www.transparenttextures.com/patterns/church.png");
+.contenedor {
+  background-image: url(imagenes/black-thread.png);
+  background-color: #48a5a8;
   font-family: sans-serif;
+
+
 }
 
 header {

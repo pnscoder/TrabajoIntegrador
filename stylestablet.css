@@ -1,5 +1,6 @@
 @media (min-width: 768px) {
   .contenedor {
+    background-image: url(imagenes/black-thread.png);
     width: 768px;
     margin: 0px auto;
   }
