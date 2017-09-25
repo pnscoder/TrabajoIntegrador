@@ -4,8 +4,8 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <meta http-equiv="X-UA-Compatible" content="ie=edge">
-  <link rel="stylesheet" href="estilosformulario.css">
-  <link rel="stylesheet" href="formularioestilotablet.css">
+  <link rel="stylesheet" href="css/estilosformulario.css">
+  <link rel="stylesheet" href="css/formularioestilotablet.css">
   <title>Registro</title>
 </head>
 <body>

@@ -1,0 +1,80 @@
+.content{
+	width: 100%;
+	margin-left: 2%;
+	margin-right: 2%;
+}
+
+@media (min-width: 1180px) {
+
+	.col12{
+		width: 100%;
+	}
+
+	.col6{
+		width: 50%;
+		float: left;	
+	}
+	.contenedor {
+		width: 1180px;
+		background-image: url(../imagenes/black-thread.png);
+	}
+
+
+
+ .columnas{height: 2150px;}
+  .columnas .columna {
+    width: 100%;
+  }
+
+
+  nav ul li a {
+      width: 18%;
+      margin-left: 1.5px;
+      font-size: 24px;
+  }
+
+  header nav ul li a:hover {
+       background:#118e82;
+       color: #fff ; 
+
+  }
+
+.izquierda{
+    width: 50%;
+    float: left;
+}
+
+.derecha{
+    width: 50%;
+    float: left;
+    text-align: center;
+    padding-top: 5%;
+}
+
+.columnas .columna .ver_mas{display: none;}
+
+.titulo{
+  width:100%;
+}
+.titulo h1 {
+  font-size: 2em;
+  font-weight: bold;
+}
+
+img{margin-top: 20px;}
+.columna .izquierda .foto1{position:relative;left:550px;}
+.texto1{position:relative;left:150px;width: 350px;display: inline-block;
+  margin-top: 50px;font-family: 'PT Sans', sans-serif;font-style: oblique;}
+.texto2{position:relative;left:-500px;width: 350px;display: inline-block;
+  margin-top: 50px;font-family: 'PT Sans', sans-serif;font-style: oblique;}
+.columnas .columna h2{font-size: 30px;}
+.columnas .columna p {font-size: 20px;color:#990033;}
+
+footer p.copy {
+        font-size: 24px;
+        background:#118e82;
+}
+footer ul li a img {
+    width: 40px;
+  
+}

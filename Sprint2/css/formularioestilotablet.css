@@ -1,0 +1,26 @@
+@media (min-width: 768px) {
+  .contenedor {
+    width: 768px;
+    margin: 0px auto;
+  }
+
+.contenedor{background-color: #6699ff;}
+.container{
+margin: 5px;
+}
+
+
+.campo{
+margin-left: 0px;
+padding: 0px;
+}
+
+.campo , #nombre{position:relative;top:45px;width: 40%;left: 50px;margin-bottom: 25px;}
+.campo , #apellido{position:relative;top:-20px;width: 40%;left: 390px;margin-bottom: 25px;}
+.campo , #edad{position:relative;top:-20px;left: 50px;margin-bottom: 25px;}
+.campo , #sexo{position:relative;top:-66px;left: 250px;margin-bottom: 25px;}
+.campo , #fecha{position:relative;top:-150px;left: 420px;margin-bottom: 25px;}
+.campo , #mail{position:relative;top:-150px;left: 50px;margin-bottom: 25px;}
+.campo , #direccion{position:relative;top:-231px;left: 420px;margin-bottom: 25px;}
+.campo , #tel{position:relative;top:-350px;left: 50px;margin-bottom: 25px;}
+#aceptacion{width:100%;}

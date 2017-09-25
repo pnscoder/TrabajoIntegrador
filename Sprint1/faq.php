@@ -1,35 +1,10 @@
-<!DOCTYPE html>
-<html>
-  <head>
-    <meta charset="utf-8">
-    <title>Styles.com</title>
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <link rel="stylesheet" href="http://meyerweb.com/eric/tools/css/reset/reset.css">
-    <link rel="stylesheet" href="stylesmobile.css">
-    <link rel="stylesheet" href="stylestablet.css">
-    <link rel="stylesheet" href="stylesdesktop.css">
-
-      </head>
-  <body>
-    <div class="contenedor">
-
-      <header>
-          <p class="texto_logo">Styles.com!</p>
-  </header>
-      <nav>
-        <ul>
-          <li><a href="index.html">Home</a></li>
-          <li><a href="login.html">Login</a></li>
-          <li><a href="productos.html">Productos</a></li>
-          <li><a href="faq.html">FAQ</a></li>
-          <li><a href="contacto.html">Contacto</a></li>
-        </ul>
-      </nav>
-
+<?php
+	include("header.php");
+?>
       <section class="columnas">
           <div class="titulo">
-            <h1 style="margin-left:50px;margin-top:25px;">FAQ (frequent asked questions)</h1>
-            <br>
+            <h1>FAQ (frequent asked questions)</h1>
+            <hr />
             <div style="width:80%;margin-left:80px;margin-top:25px;">
             <p>Nosotros aconsejamos utilizar un color básico, como el negro, el gris o el blanco (y derivados) en combinación con un color más estridente (o varios) para no cargar demasiado la vista.</p>
             <br><h3 style="font-weight:bold;">Mi figura y mi manera de actuar son algo masculinas, ¿con qué tipo de prendas puedo dar una imagen femenina?</h3>
@@ -37,10 +12,10 @@
             <br><h3 style="font-weight:bold;">Gasto dos tallas más de blusa que de pantalón, ¿cómo puedo compensarlo?</h3>
             <br><p>El primer consejo es que huyas de las faldas rectas, prueba con las abombadas o de campana. Del mismo modo, procura evitar los leggings y pantalones demasiado ajustados.</p>
             <br><h3 style="font-weight:bold;">¿Qué puedo ponerme en una boda que después me sirva para ocasiones menos flamantes?</h3>
-          <br><p>
-Recurre a los vestidos cortos en color negro. Observa elegancia, estilo y sencillez en la misma prenda como ocurre con nuestro vestido Leonor. Lo podrás usar de día o de noche, para salir de fiesta, a una cena, a una reunión informal…
-
-</p>
+            <br>
+            <p>
+            Recurre a los vestidos cortos en color negro. Observa elegancia, estilo y sencillez en la misma prenda como ocurre con nuestro vestido Leonor. Lo podrás usar de día o de noche, para salir de fiesta, a una cena, a una reunión informal…
+            </p>
 
 
 
@@ -50,7 +25,7 @@ Recurre a los vestidos cortos en color negro. Observa elegancia, estilo y sencil
     </div>
     <footer>
       <div class="contenedor">
-          <p class="copy">Copyright 2017</p>
+            <p class="copy">Copyright 2017 Todos los derechos reservados </p>
           <ul class="social">
             <li><a href="http://twitter.com" target="_blank"><img src="iconos/twitter.png" alt="twitter"></a></li>
             <li><a href="http://instagram.com" target="_blank"><img src="iconos/instagram.png" alt="instagram"></a></li>

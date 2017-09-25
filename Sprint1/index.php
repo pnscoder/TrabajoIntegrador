@@ -1,33 +1,6 @@
-<!DOCTYPE html>
-<html>
-  <head>
-    <meta charset="utf-8">
-    <title>Styles.com</title>
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <link rel="stylesheet" href="http://meyerweb.com/eric/tools/css/reset/reset.css">
-    <link rel="stylesheet" href="stylesmobile.css">
-    <link rel="stylesheet" href="stylestablet.css">
-    <link rel="stylesheet" href="stylesdesktop.css">
-
-      </head>
-  <body>
-    <div class="contenedor">
-
-      <header>
-          <p class="texto_logo">Styles.com!</p>
-  </header>
-      <nav>
-        <ul>
-          <li><a href="index.html">Home</a></li>
-          <li><link rel="#" href="productos.html"><a href="productos.html">Productos</a></li>
-          <li><a href="faq.html">FAQ</a></li>
-          <li><link rel="#" href="contacto.html"><a href="contacto.html">Contacto</a></li>
-          <li><a href="login.html">Login</a></li>
-        </ul>
-      </nav>
-
-
-
+<?php
+	include("header.php");
+?>
       <section class="columnas">
 
         <div class="columna">
@@ -99,7 +72,7 @@
     </div>
     <footer>
       <div class="contenedor">
-          <p class="copy">Copyright 2017</p>
+            <p class="copy">Copyright 2017 Todos los derechos reservados </p>
           <ul class="social">
             <li><a href="http://twitter.com" target="_blank"><img src="iconos/twitter.png" alt="twitter"></a></li>
             <li><a href="http://instagram.com" target="_blank"><img src="iconos/instagram.png" alt="instagram"></a></li>

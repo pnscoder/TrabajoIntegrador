@@ -1,6 +1,13 @@
 @media (min-width: 768px) {
+	.col12{
+		width: 100%;
+	}
+
+	.col6{
+		width: 100%;
+	}
   .contenedor {
-    background-image: url(imagenes/black-thread.png);
+    background-image: url(../imagenes/black-thread.png);
     width: 768px;
     margin: 0px auto;
   }
