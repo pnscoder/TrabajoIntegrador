@@ -1,0 +1,178 @@
+.bienvenida{
+	background: white;
+    padding: 1%;
+}
+.alert-danger {
+    color: #a94442;
+    background-color: #f2dede;
+    border-color: #ebccd1;
+}
+.alert-success {
+    color: #3c763d;
+    background-color: #dff0d8;
+    border-color: #d6e9c6;
+}
+.alert {
+    padding: 15px;
+    margin-bottom: 20px;
+    border: 1px solid transparent;
+    border-radius: 4px;
+}
+.text-center {
+    text-align: center;
+}
+
+h1{
+	display: block;
+    font-size: 2em;
+    -webkit-margin-before: 0.67em;
+    -webkit-margin-after: 0.67em;
+    -webkit-margin-start: 0px;
+    -webkit-margin-end: 0px;
+    font-weight: bold;
+}
+h2{
+	display: block;
+    font-size: 1.5em;
+    -webkit-margin-before: 0.67em;
+    -webkit-margin-after: 0.67em;
+    -webkit-margin-start: 0px;
+    -webkit-margin-end: 0px;
+    font-weight: bold;
+}
+.col6 > div {
+	text-align: center;
+    font-size: 16px;
+    padding: 5%;	
+}
+
+.col6 > div > form {
+	text-align: left;
+}
+.col6 > div > form > input {
+	width: 70%;
+	margin-bottom:2%; 
+}
+
+strong{
+	font-weight:bold;
+}
+
+.col12{
+	width: 100%;
+}
+
+.col6{
+	width: 100%;
+}
+
+.contenedor {
+  background-image: url(../imagenes/black-thread.png);
+  background-color: #48a5a8;
+  font-family: sans-serif;
+
+
+}
+
+header {
+  margin: 0px 0;
+}
+
+header p {
+  font-family: fantasy;
+  font-weight: bold;
+  font-size: 75px;
+  text-align: center;
+  color:white;
+  padding-top: 55px;
+  margin-bottom: 35px;
+}
+
+nav {
+  margin-bottom: 10px;
+}
+
+nav ul li {
+  margin-bottom: 2px;
+  margin-top: 10px;
+}
+
+nav ul li a {
+  text-align: center;
+  display: block;
+  background-color:  #004a4d;
+  padding: 10px 10px;
+  font-size: 20px;
+  text-decoration: none;
+  color:white;
+  border: 1px solid honeydew;
+  border-radius: 2px;
+  margin-left:5px;
+  margin-right:5px;
+}
+
+.columnas {
+  padding: 10px 10px;
+  background-color: #e7e5ca;
+}
+
+.columnas .columna img{
+  max-width: 100%;
+  height: auto;
+}
+
+.columnas .columna h2{
+  font-size: 20px;
+  margin: 12px 0;
+  font-weight: bold;
+}
+
+.columnas .columna p{
+  font-size: 14px;
+  color: black;
+  margin-bottom: 20px;
+}
+
+.columnas .columna .ver_mas {
+  display: block;
+  text-decoration: none;
+  background: #ccc;
+  text-align: center;
+  color: white;
+  padding: 10px 0;
+  margin-top: 8px;
+  margin-bottom: 15px;
+  font-size: 10px;
+}
+
+.columna{margin-bottom: 10px;}
+
+
+footer .contenedor{
+background-color: #e7e5ca;}
+
+footer {
+  text-align: center;
+}
+
+footer p.copy {
+  font-size: 16px;
+  text-align: left;
+  padding-top: 5px;
+  color: black;
+text-align: center;
+}
+footer ul {
+  margin-top: 20px;
+  padding-bottom: 25px;
+}
+footer ul li {
+  display: inline-block;
+  margin-left: 10px;
+}
+footer ul li:first-child {
+  margin-left: 0;
+}
+footer ul li a img {
+  width: 25px;
+}
